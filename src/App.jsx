@@ -1,8 +1,8 @@
 import React from 'react'
 // import './App.css'
 import HomeComponent from './HomeComponent'
-// import QuizComponent from './quizComponent'
-// import ResultComponent from './ResultComponent'
+import QuizComponent from './quizComponent'
+import ResultComponent from './ResultComponent'
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
     <>
       <div>
         <HomeComponent />
-        {/* <QuizComponent/> */}
-        {/* <ResultComponent /> */}
+        <QuizComponent/>
+        <ResultComponent />
       </div>
     </>
   )
